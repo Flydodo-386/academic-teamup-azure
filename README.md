@@ -14,7 +14,7 @@ A standalone internal collaboration hub for grant applications and research pape
 - Server-side PostgreSQL sessions, CSRF protection, migrations and health checks.
 - Dockerfile, Azure Bicep provisioning templates and GitHub Actions CI/deployment.
 
-The database starts empty. The removed paper examples and other demo records are **not** seeded. This release contains **no existing user data or credentials** and does not copy the live demo's database.
+The database starts empty. 
 
 ## Start here
 
