@@ -1,6 +1,8 @@
 # TeamUp — Azure edition 1.1
 
-A standalone internal collaboration hub for grant applications and research papers. This version runs on **Azure App Service (Linux container)**, uses **Microsoft Entra ID** for sign-in and **PostgreSQL** for persistent data. It has no OpenAI, Sites, Cloudflare, or ChatGPT runtime dependency.
+A vibe-coded project that promotes research collaboration by helping academics discover funding opportunities, find collaborators, and form teams for grant applications and research papers.
+
+This Azure edition runs on **Azure App Service (Linux container)**, uses **Microsoft Entra ID** for sign-in and **PostgreSQL** for persistent data. It has no OpenAI, Sites, Cloudflare, or ChatGPT runtime dependency.
 
 ## What is included
 
