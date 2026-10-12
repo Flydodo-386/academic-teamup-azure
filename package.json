@@ -1,0 +1,42 @@
+{
+  "name": "academic-teamup-azure",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env --watch server/index.mjs",
+    "start": "node --env-file-if-exists=.env server/index.mjs",
+    "build": "npm run typecheck && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs",
+    "db:migrate": "node --env-file-if-exists=.env server/migrate.mjs",
+    "db:cleanup": "node --env-file-if-exists=.env server/cleanup.mjs",
+    "check": "npm run build && npm test"
+  },
+  "dependencies": {
+    "cookie-parser": "1.4.7",
+    "express": "5.3.0",
+    "express-rate-limit": "8.7.1",
+    "helmet": "8.1.0",
+    "openid-client": "6.8.8",
+    "papaparse": "5.5.3",
+    "pg": "8.23.1",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "read-excel-file": "9.3.12",
+    "zod": "4.1.12"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.9",
+    "@types/papaparse": "5.3.16",
+    "@types/react": "19.2.3",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "supertest": "7.1.4",
+    "typescript": "5.9.3",
+    "vite": "8.0.13"
+  }
+}
