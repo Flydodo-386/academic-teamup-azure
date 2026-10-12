@@ -24,7 +24,7 @@
     "openid-client": "6.8.8",
     "papaparse": "5.5.3",
     "pg": "8.23.1",
-    "react": "19.2.6",
+    "react": "19.3.0",
     "react-dom": "19.2.6",
     "read-excel-file": "9.3.12",
     "zod": "4.1.12"
@@ -32,7 +32,7 @@
   "devDependencies": {
     "@electric-sql/pglite": "0.5.9",
     "@types/papaparse": "5.3.16",
-    "@types/react": "19.2.3",
+    "@types/react": "19.3.0",
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "6.0.2",
     "supertest": "7.1.4",
