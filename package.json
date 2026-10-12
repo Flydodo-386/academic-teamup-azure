@@ -22,7 +22,7 @@
     "express-rate-limit": "8.7.1",
     "helmet": "8.1.0",
     "openid-client": "6.8.8",
-    "papaparse": "5.5.3",
+    "papaparse": "5.7.0",
     "pg": "8.23.1",
     "react": "19.2.6",
     "react-dom": "19.2.6",
@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@electric-sql/pglite": "0.5.9",
-    "@types/papaparse": "5.3.16",
+    "@types/papaparse": "5.5.2",
     "@types/react": "19.2.3",
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "6.0.2",
